@@ -15,7 +15,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="GPS Less Navigation ..."
+        android:text="GPS Less Navigation ... The Best Navigation System Ever ;)"
         android:id="@+id/textView" />
 
     <Button

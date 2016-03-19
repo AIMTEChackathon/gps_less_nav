@@ -7,16 +7,23 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Steps counter"
-        android:id="@+id/textView"
-        android:layout_gravity="center_horizontal" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:id="@+id/textView2"
         android:layout_gravity="center_horizontal" />
+
+    <com.example.aimtechackathon2016.gpslessnavigation.MapView
+        android:layout_width="fill_parent"
+        android:layout_height="401dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.66" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonTurn"
+        android:layout_gravity="center_horizontal"
+        android:onClick="confirmTurn"
+        android:text="Go" />
 
 </LinearLayout>
